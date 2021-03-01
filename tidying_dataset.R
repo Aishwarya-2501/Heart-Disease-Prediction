@@ -40,5 +40,4 @@ data2 <- data %>%
   ) %>% 
   mutate_if(is.character, as.factor) %>% 
   dplyr::select(target, sex, fbs, exang, cp, restecg, slope, ca, thal, everything())
-
-View(data2)
+write.csv(data2, "E:\\RStudio\\data2.csv", row.names = FALSE)
