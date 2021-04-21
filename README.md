@@ -26,7 +26,8 @@ Package dplyr: is a package for data manipulation, easy-to-use functions that ar
 Package ggplot2: s a system for declaratively creating graphics, based on The Grammar of Graphics. You provide the data, tell ggplot2 how to map variables to aesthetics, what graphical primitives to use, and it takes care of the details.
 library(tidyverse)
 
-# Logistic regression machine learning model is used.
+
+Logistic regression machine learning model is used.
 
 
 
